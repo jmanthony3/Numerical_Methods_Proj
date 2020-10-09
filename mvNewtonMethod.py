@@ -54,4 +54,4 @@ def multivariateNewton(f, x0, tol, N):
 res = multivariateNewton(fs, [1.,1.,1.], 1e-8, 20) # Perform Newton Method for System "fs" with guess  [x0,x1,x2] = [1,1,1] with tol = 1e-8 and 20 maximum iterations
 print(fs(res))  # Print fs output for system
 
-kappa\
+#kappa\
